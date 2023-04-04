@@ -1,0 +1,86 @@
+.app-logo {
+  background: url("../../assets/utils/images/logo.png");
+  width: 288px;
+  height: 52px;
+}
+
+.signin-title {
+  font-family: var(--ternary-font-family);
+  font-weight: var(--font-bold);
+  font-size: var(--font32);
+  line-height: 1.2;
+  color: var(--color6);
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.right-box {
+  background-color: #f5f6f7;
+}
+
+.slide-img-bg {
+  background: url("../../assets/utils/images/Mask\ group.png");
+  opacity: 1;
+}
+
+.form-control {
+  border-radius: 10px;
+  height: calc(1.5em + 0.75rem + 10px);
+  background: #f5f6f7;
+  border: 1px solid rgba(28, 28, 28, 0.1);
+}
+
+.loginContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.loginForm label,
+.loginForm input {
+  font-weight: var(--font-medium);
+  font-size: var(--font14);
+  line-height: 1.2;
+  color: var(--color6);
+}
+
+.loginForm .loginInput {
+  color: var(--secondary-color);
+  min-height: 50px;
+}
+
+.loginArea {
+  max-width: 524px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.registerLinkWrap {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.registerLink {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.registerLink:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+@media(max-width: 991px) {
+  .loginArea{
+    max-width: 100%;
+  }
+  .loginContainer .row {
+    /* height: 100% !important; */
+    overflow-y: auto !important;
+  }
+
+  .signin-title {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 24px;
+  }
+}

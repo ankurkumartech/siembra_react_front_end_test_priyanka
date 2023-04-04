@@ -1,0 +1,112 @@
+.portfolio-main {
+
+  // Tabs
+  .tabbing {
+    .nav-tabs {
+      background: #f5f5f5;
+      border: 0.9px solid rgba(40, 43, 56, 0.1);
+      border-radius: 900px;
+
+      .nav-link {
+        // width: 100px;
+        font-weight: var(--font-medium);
+        font-size: var(--font13);
+        line-height: 1.2;
+        color: var(--color4);
+        display: block;
+        text-align: center;
+
+        &:hover {
+          color: var(--color4) !important;
+          border-color: transparent;
+        }
+
+        &.active {
+          background: var(--primary-color);
+          border-color: transparent;
+          box-shadow: 0px 0.9px 1.8px rgba(97, 97, 97, 0.2), 0px 1.8px 3.6px rgba(97, 97, 97, 0.2);
+          color: var(--white-color) !important;
+          border-radius: 900px;
+        }
+      }
+    }
+  }
+
+  // Block
+  .interest-main {
+    border: 0.76621px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 3.06484px 6.12968px rgba(0, 0, 0, 0.04), 0px 0px 1.53242px rgba(0, 0, 0, 0.06), 0px 0px 0.76621px rgba(0, 0, 0, 0.04);
+    border-radius: 6.12968px;
+
+    .card-body {
+      padding-top: 36px;
+      padding-bottom: 24px;
+    }
+
+    label {
+      font-weight: var(--font-medium);
+      font-size: var(--font14);
+      line-height: 1.1;
+      color: var(--secondary-color);
+    }
+
+    .shadow-box {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    .row {
+      margin: 0 -35px;
+    }
+
+    .row [class*='col-'] {
+      padding: 0 35px;
+    }
+
+    .btnWrapper {
+      margin-left: -5px;
+      margin-right: -5px;
+
+      .btnInner {
+        margin-top: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        flex: 1;
+
+        .actBtn {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+
+  .title-main {
+    margin-bottom: 8px;
+  }
+
+  .langSwitch {
+    margin-bottom: 8px;
+
+    .switchIncon {
+      color: var(--white-color);
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 1.2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      &.uncheckIcon {
+        margin-right: 2px;
+      }
+
+      &.checkIcon {
+        margin-left: 2px;
+      }
+    }
+  }
+}

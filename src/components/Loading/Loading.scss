@@ -1,0 +1,65 @@
+// .loader-suspense {
+//   background-color: #fff !important;
+//   position: initial !important;
+// }
+
+.loader-container {
+  width: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 100000;
+  position: absolute;
+  height: 100%;
+
+  .customLoader {
+    .ball-clip-rotate>div {
+      width: 70px;
+      height: 70px;
+      border: 5px solid var(--primary-color);
+      border-bottom-color: transparent;  
+    }
+  }
+}
+
+
+// .spinner-box {
+//   width: 70px;
+//   height: 70px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: transparent;
+// }
+
+// .circle-border {
+//   width: 50px;
+//   height: 50px;
+//   padding: 3px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border-radius: 50%;
+//   background: rgb(63,249,220);
+//   background: linear-gradient(0deg, rgba(63,249,220,0.1) 33%, rgba(63,249,220,1) 100%);
+//   animation: spin .8s linear 0s infinite;
+// }
+
+// .circle-core {
+//   width: 100%;
+//   height: 100%;
+//   background-color: #f5f5f5;
+//   border-radius: 50%;
+// }
+
+/* KEYFRAMES */
+
+// @keyframes spin {
+//   from {
+//     transform: rotate(0);
+//   }
+//   to{
+//     transform: rotate(359deg);
+//   }
+// }

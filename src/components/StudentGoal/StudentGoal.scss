@@ -1,0 +1,133 @@
+.Student-page {
+  .student-profile-container {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      margin-left: 12px;
+      font-weight: var(--font-bold);
+      font-size: 18px;
+      line-height: 1.2;
+      letter-spacing: -0.2px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin-left: 12px;
+      font-family: var(--secondary-font-family);
+      font-weight: var(--font-normal);
+      font-size: var(--font14);
+      line-height: 1.2;
+      letter-spacing: -0.12px;
+      color: var(--secondary-font-color);
+      margin-bottom: 0;
+    }
+  }
+
+  .title {
+    padding: 30px 0 0 0;
+
+    h1 {
+      font-weight: var(--font-bold);
+      font-size: 22px;
+      line-height: 1.2;
+      letter-spacing: -0.2px;
+      text-transform: capitalize;
+      margin-bottom: 15px;
+    }
+  }
+
+  // Requirement Card
+  .requirementCard {
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    overflow: hidden;
+
+    .card-header {
+      font-weight: var(--font-medium);
+      color: var(--primary-font-color);
+      font-size: var(--font16);
+      text-transform: capitalize;
+      padding: 22px;
+    }
+
+    .trackImg {
+      width: 343px;
+      height: auto;
+    }
+
+    .congrats-main {
+      h2 {
+        font-weight: var(--font-bold);
+        font-size: 24px;
+        line-height: 1.2;
+        letter-spacing: -0.3px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-weight: var(--font-medium);
+        font-family: var(--secondary-font-family);
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: -0.2px;
+        color: var(--secondary-font-color);
+        margin-bottom: 15px;
+      }
+    }
+
+  }
+
+  .btnWrapper {
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media(max-width: 680px) {
+      flex-direction: column;
+    }
+
+    .btnInner {
+      padding-left: 5px;
+      padding-right: 5px;
+      display: flex;
+      flex: 1;
+    }
+
+    .btnGoal{
+      margin-bottom: 12px;
+    }    
+  }
+
+  .detail-main {
+    h3 {
+      font-weight: var(--font-bold);
+      font-size: var(--font16);
+      line-height: 1.2;
+    }
+
+    .shadow-box {
+      padding-bottom: 5px;
+
+      h4 {
+        font-weight: var(--font-bold);
+        font-size: var(--font14);
+        line-height: 1.2;
+        color: var(--secondary-font-color);
+      }
+
+      ul {
+        padding-left: 2rem;
+        margin-bottom: 0;
+
+        li {
+          font-size: var(--font14);
+          line-height: 1.2;
+          color: var(--secondary-font-color);
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
